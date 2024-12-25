@@ -4,3 +4,6 @@ import {users} from "./users";
 
 const layout = makeUsersList({users});
 console.log(layout)
+
+const bodyEl = document.querySelector("body")
+bodyEl.innerHTML = layout;
